@@ -18,8 +18,13 @@ app.get('/newfun2', (req, res) => {
     res.send('This is new function-4')
   });
 
+<<<<<<< HEAD
   app.get('/newfun6', (req, res) => {
     res.send('This is new function-6')
+=======
+  app.get('/newfun5', (req, res) => {
+    res.send('This is new function-5')
+>>>>>>> tminor
   });
 
 
