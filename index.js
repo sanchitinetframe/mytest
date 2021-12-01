@@ -14,6 +14,10 @@ app.get('/newfun2', (req, res) => {
     res.send('This is new function-3')
   });  
 
+  app.get('/newfun4', (req, res) => {
+    res.send('This is new function-4')
+  });
+
 
 
 app.listen(port, () => {
